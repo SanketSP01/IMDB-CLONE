@@ -1,5 +1,5 @@
 .posterImage {
-    height: 600px;
+    height: auto;
 }
 
 .posterImage>img {
@@ -50,4 +50,16 @@
     display: flex;
     text-align: left;
     width: 50%;
+}
+
+@media (max-width: 786px) {
+    .posterImage__title {
+        font-weight: 700;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .posterImage__description {
+        font-size: 12px;
+    }
 }
