@@ -60,3 +60,27 @@
     font-size: .75rem;
     margin-bottom: 0.25rem;
 }
+
+@media (max-width:426px) {
+    .cards__img {
+        height: 150px;
+    }
+
+    .cards {
+        margin: 0.19rem;
+        min-width: 100px;
+        height: 150px;
+    }
+}
+
+@media (max-width:376px) {
+    .cards__img {
+        height: 100px;
+    }
+
+    .cards {
+        margin: 0.19rem;
+        min-width: 50px;
+        height: 100px;
+    }
+}

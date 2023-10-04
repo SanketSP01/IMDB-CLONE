@@ -1,11 +1,10 @@
 .posterImage {
-    height: auto;
+    height: 80vh;
 }
 
 .posterImage>img {
-    margin: auto;
-    display: block;
     width: 100%;
+
 }
 
 .posterImage__overlay {
@@ -52,14 +51,136 @@
     width: 50%;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 2560px) {
+    .posterImage {
+        height: 80vh;
+    }
+
     .posterImage__title {
-        font-weight: 700;
-        font-size: 22px;
+        font-weight: 900;
+        font-size: 4rem;
+        margin-bottom: 0.4rem;
         text-align: left;
     }
 
     .posterImage__description {
-        font-size: 12px;
+        font-style: italic;
+        font-size: 2rem;
+        margin-bottom: 0.25rem;
+        display: flex;
+        text-align: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .posterImage {
+        height: 80vh;
+    }
+
+    .posterImage__title {
+        font-weight: 900;
+        font-size: 2rem;
+        margin-bottom: 0.4rem;
+        text-align: left;
+    }
+
+    .posterImage__description {
+        font-style: italic;
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+        display: flex;
+        text-align: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 769px) {
+    .posterImage {
+        height: auto;
+    }
+
+    .posterImage img {
+        object-fit: fill;
+    }
+
+    .posterImage__title {
+        font-weight: 900;
+        font-size: 2rem;
+        margin-bottom: 0.4rem;
+        text-align: left;
+    }
+
+    .posterImage__description {
+        font-style: italic;
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+        display: flex;
+        text-align: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 426px) {
+    .posterImage img {
+        height: 50vh;
+    }
+
+    .posterImage {
+        height: 50vh;
+
+    }
+
+    .posterImage__title {
+        font-weight: 900;
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+        text-align: left;
+    }
+
+    .posterImage__runtime {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .posterImage__description {
+        font-style: italic;
+        font-size: 9px;
+        margin-bottom: 0.25rem;
+        display: flex;
+        text-align: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 426px) {
+    .posterImage img {
+        height: 40vh;
+    }
+
+    .posterImage {
+        height: 40vh;
+
+    }
+
+    .posterImage__title {
+        font-weight: 900;
+        font-size: 15px;
+        margin-bottom: 0.4rem;
+        text-align: left;
+    }
+
+    .posterImage__runtime {
+        font-size: 15px;
+        margin-bottom: 1rem;
+    }
+
+    .posterImage__description {
+        font-style: italic;
+        font-size: 6px;
+        margin-bottom: 0.25rem;
+        display: flex;
+        text-align: left;
+        width: 50%;
     }
 }

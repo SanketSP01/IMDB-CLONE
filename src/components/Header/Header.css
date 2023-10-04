@@ -32,3 +32,46 @@ a>span:hover {
 .user__avatar {
     font-size: 2rem;
 }
+
+@media (max-width: 426px) {
+    a>span {
+        margin: 0 20px;
+        font-size: 15px;
+    }
+
+    .header {
+        margin: 0 1.5rem;
+
+    }
+}
+
+@media (max-width: 376px) {
+    a>span {
+        margin: 0 15px;
+        font-size: 12px;
+    }
+
+    .header {
+        margin: 0 32px;
+
+    }
+}
+
+@media (max-width: 321px) {
+    a>span {
+        margin: 0 12px;
+        font-size: 10px;
+    }
+
+    .header {
+        margin: 0 22px;
+
+    }
+
+    .header_icon {
+        width: 70px;
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+    }
+}
